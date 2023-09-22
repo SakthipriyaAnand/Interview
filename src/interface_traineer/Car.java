@@ -21,6 +21,10 @@ public class Car implements Engine,Body {
 		obj.interior();
 		obj.petrol();
 		obj.dec();
+		System.out.println(Body.a);
+		System.out.println(Body.s);
+		System.out.println(Body.b);
+		//System.out.println(obj.b);
 		
 
 	}
