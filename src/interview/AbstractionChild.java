@@ -6,6 +6,8 @@ public class AbstractionChild extends Abstraction {
 		Abstraction ab=new AbstractionChild();
 			ab.first();
 			Abstraction.first(40);
+			//AbstractionChild ne=AbstractionChild();	//not possible
+			//Abstraction abc=new Abstraction();
 //			Child ch=new Child();
 //			ch.first();
 	}

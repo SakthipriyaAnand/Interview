@@ -19,6 +19,17 @@ public class Encapsulation {
 		en1.setword("sakthi");
 		System.out.println("Number: "+en1.getnumber());
 		System.out.println("word: "+en1.getword());
+		System.out.println(en1.getdig());
+		//int val=en1.getdig();
+		
+		en1.setdig(15);
+		System.out.println(en1.getdig());
+		en1.setdig1(100);
+		System.out.println(en1.getdig1());
+		
+		Encapsulation_1 en2=new Encapsulation_1();
+		System.out.println(en2.getdig1());
+		
 	}
 
 }

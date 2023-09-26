@@ -7,7 +7,13 @@ public abstract class Abstraction {
 		
 		System.out.println("I am a concrete method\na="+a);
 	}
-	
+	protected void sec() { 		// protected is achived using abstract it is not achieved in interface
+		System.out.println("protected in abstract");
+	}
+	@SuppressWarnings("unused")
+	private void se(){		// private is achived using abstract it is not achieved in interface
+		System.out.println("private in abstract");
+	}
 //	public static void main(String[] args) {
 //		
 //		Abstraction.first(1);

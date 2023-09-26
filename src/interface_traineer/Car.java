@@ -28,5 +28,10 @@ public class Car implements Engine,Body {
 		
 
 	}
+	@Override
+	public void design() {
+		System.out.println("abstract method");
+		
+	}
 
 }
