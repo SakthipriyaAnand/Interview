@@ -28,6 +28,7 @@ public class Encapsulation {
 		System.out.println(en1.getdig1());
 		
 		Encapsulation_1 en2=new Encapsulation_1();
+		en2.setdig1(200);
 		System.out.println(en2.getdig1());
 		
 	}

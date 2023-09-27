@@ -25,6 +25,7 @@ public class Encapsulation_1 {
 		public void setdig(int dig) {
 			this.dig=dig;
 		}
+		@SuppressWarnings("static-access")
 		public void setdig1(int dig1) {
 			this.dig1=dig1;
 		}
