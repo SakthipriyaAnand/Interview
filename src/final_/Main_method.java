@@ -1,8 +1,9 @@
 package final_;
 
 public class Main_method extends One{
-//final void w1() {		
-//	System.out.println("hello");//overriding is not possible in final method
+	//public class Main_method extends Two{		//final class cannot be inherited
+	//final void w1() {		
+//	System.out.println("hello");				//overriding is not possible in final method
 //	System.out.println(A);
 //}
 

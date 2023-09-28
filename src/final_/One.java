@@ -16,8 +16,8 @@ final void w1() {
 }
 
 }
-//  final class Two{
-//	public void r() {
-//		System.out.println("final class");
-//	}
-//}
+  final class Two{			//final class prevents inheritance it cannot be inherited
+	public void r() {
+		System.out.println("final class");
+	}
+}
