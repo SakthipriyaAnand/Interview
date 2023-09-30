@@ -9,10 +9,14 @@ public class IndexSwap {
 		a[1]=2;		
 		a[2]=3;		//a[2]=4=a[3]
 		a[3]=4;		//a[3]=5=a[4]
-		a[4]=5;		//a[4]=0
-		a[5]=6;
+		a[4]=5;		//a[4]=6=a[5]
+		a[5]=6;		//a[5]=0
 		
-		for (int i = 0; i < a.length; i++) {	
+		
+		
+		for (int i = 0; i < a.length; i++) {
+			
+			
 			if(i>=2) {							//remove the value in index 2
 				for(int j=i;j< a.length-1;j++) {
 				a[j]=a[i+1]; //a[2]=a[3]
