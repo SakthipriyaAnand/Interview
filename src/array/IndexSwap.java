@@ -17,7 +17,7 @@ public class IndexSwap {
 		for (int i = 0; i < a.length; i++) {
 			
 			
-			if(i>=2) {							//remove the value in index 2
+			if(i>2) {							//remove the value in index 2
 				for(int j=i;j< a.length-1;j++) {
 				a[j]=a[i+1]; //a[2]=a[3]
 				

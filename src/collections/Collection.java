@@ -37,6 +37,20 @@ public class Collection {
 		while(iterator.hasNext()) {
 			System.out.println(iterator.next());
 		}
+		System.out.println("------------------------------------");
+		
+		ArrayList all=new ArrayList();
+		all.add(1);
+		all.add("string");
+		all.add(null);
+		all.add(" ");
+		System.out.println(all);
+		System.out.println("Size of Array List: "+all.size());
+		
+		Iterator itr= all.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
 		
 	}
 
